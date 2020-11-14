@@ -26079,7 +26079,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
           }, 500 + t._config.interval));
         };
 
-        o["default"](this._element.querySelectorAll(".carousel-item img")).on("dragstart.bs.carousel", function (t) {
+        o["default"](this._element.querySelectorAll(".carousel-item template-images")).on("dragstart.bs.carousel", function (t) {
           return t.preventDefault();
         }), this._pointerEvent ? (o["default"](this._element).on("pointerdown.bs.carousel", function (t) {
           return e(t);

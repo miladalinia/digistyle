@@ -1,8 +1,5 @@
 <?php
 
-use App\Http\Controllers\Admin\AdminController;
-use Illuminate\Support\Facades\Route;
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,10 +12,18 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
-Route::prefix('admin')->namespace('Admin')->group(function () {
-    Route::get('/', [AdminController::class, 'index'])->name('dashboard');
-    Route::get('users', [AdminController::class, 'list'])->name('usersList');
-});
+Auth::routes();
 
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::get('wishlist', function () {
+    return view('wishlist');
+});
+Route::get('product-list', function () {
+    return view('product-list');
+});
+Route::get('product-detail', function () {
+    return view('product-detail');
+});
