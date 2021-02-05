@@ -40,7 +40,7 @@
             </div>
         </div>
         <!-- Top bar End -->
-        
+
         <!-- Nav Bar Start -->
         <div class="nav">
             <div class="container-fluid">
@@ -57,7 +57,7 @@
                             <a href="product-detail.blade.php" class="nav-item nav-link">Product Detail</a>
                             <a href="cart.blade.php" class="nav-item nav-link">Cart</a>
                             <a href="checkout.blade.php" class="nav-item nav-link">Checkout</a>
-                            <a href="my-account.html" class="nav-item nav-link">My Account</a>
+                            <a href="my-account.blade.php" class="nav-item nav-link">My Account</a>
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">More Pages</a>
                                 <div class="dropdown-menu">
@@ -80,8 +80,8 @@
                 </nav>
             </div>
         </div>
-        <!-- Nav Bar End -->      
-        
+        <!-- Nav Bar End -->
+
         <!-- Bottom Bar Start -->
         <div class="bottom-bar">
             <div class="container-fluid">
@@ -114,8 +114,8 @@
                 </div>
             </div>
         </div>
-        <!-- Bottom Bar End -->  
-        
+        <!-- Bottom Bar End -->
+
         <!-- Breadcrumb Start -->
         <div class="breadcrumb-wrap">
             <div class="container-fluid">
@@ -127,7 +127,7 @@
             </div>
         </div>
         <!-- Breadcrumb End -->
-        
+
         <!-- Product List Start -->
         <div class="product-view">
             <div class="container-fluid">
@@ -177,7 +177,7 @@
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <div class="col-md-4">
                                 <div class="product-item">
                                     <div class="product-title">
@@ -431,7 +431,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <!-- Pagination Start -->
                         <div class="col-md-12">
                             <nav aria-label="Page navigation example">
@@ -449,8 +449,8 @@
                             </nav>
                         </div>
                         <!-- Pagination Start -->
-                    </div>           
-                    
+                    </div>
+
                     <!-- Side Bar Start -->
                     <div class="col-lg-4 sidebar">
                         <div class="sidebar-widget category">
@@ -475,7 +475,7 @@
                                 </ul>
                             </nav>
                         </div>
-                        
+
                         <div class="sidebar-widget widget-slider">
                             <div class="sidebar-slider normal-slider">
                                 <div class="product-item">
@@ -558,7 +558,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="sidebar-widget brands">
                             <h2 class="title">Our Brands</h2>
                             <ul>
@@ -570,7 +570,7 @@
                                 <li><a href="#">Sagittis</a><span>(28)</span></li>
                             </ul>
                         </div>
-                        
+
                         <div class="sidebar-widget tag">
                             <h2 class="title">Tags Cloud</h2>
                             <a href="#">Lorem ipsum</a>
@@ -591,8 +591,8 @@
                 </div>
             </div>
         </div>
-        <!-- Product List End -->  
-        
+        <!-- Product List End -->
+
         <!-- Brand Start -->
         <div class="brand">
             <div class="container-fluid">
@@ -607,7 +607,7 @@
             </div>
         </div>
         <!-- Brand End -->
-        
+
         <!-- Footer Start -->
         <div class="footer">
             <div class="container-fluid">
@@ -622,7 +622,7 @@
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="col-lg-3 col-md-6">
                         <div class="footer-widget">
                             <h2>Follow Us</h2>
@@ -660,7 +660,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="row payment align-items-center">
                     <div class="col-md-6">
                         <div class="payment-method">
@@ -680,7 +680,7 @@
             </div>
         </div>
         <!-- Footer End -->
-        
+
         <!-- Footer Bottom Start -->
         <div class="footer-bottom">
             <div class="container">
@@ -695,17 +695,17 @@
                 </div>
             </div>
         </div>
-        <!-- Footer Bottom End -->       
-        
+        <!-- Footer Bottom End -->
+
         <!-- Back to Top -->
         <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-        
+
         <!-- JavaScript Libraries -->
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
         <script src="lib/easing/easing.min.js"></script>
         <script src="lib/slick/slick.min.js"></script>
-        
+
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
     </body>

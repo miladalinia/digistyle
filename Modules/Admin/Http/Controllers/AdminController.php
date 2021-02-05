@@ -15,13 +15,13 @@ class AdminController extends Controller
      */
     public function index()
     {
-        return view('admin::Admin.panel');
+        return view('admin::panel');
     }
 
     public function list()
     {
         $admins = Admin::paginate(10);
-        return view('admin::Admin.admins.list',compact('admins'));
+        return view('admin::admins.list',compact('admins'));
     }
 
 

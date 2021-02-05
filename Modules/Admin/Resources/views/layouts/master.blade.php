@@ -7,13 +7,13 @@
         <title>Module Admin</title>
 
        {{-- Laravel Mix - CSS File --}}
-       {{-- <link rel="stylesheet" href="{{ mix('css/admin.css') }}"> --}}
+        <link rel="stylesheet" href="{{ mix('css/admin.css') }}">
 
     </head>
     <body>
         @yield('content')
 
         {{-- Laravel Mix - JS File --}}
-        {{-- <script src="{{ mix('js/admin.js') }}"></script> --}}
+         <script src="{{ mix('js/admin.js') }}"></script>
     </body>
 </html>

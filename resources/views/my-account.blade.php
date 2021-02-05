@@ -40,7 +40,7 @@
             </div>
         </div>
         <!-- Top bar End -->
-        
+
         <!-- Nav Bar Start -->
         <div class="nav">
             <div class="container-fluid">
@@ -57,7 +57,7 @@
                             <a href="product-detail.blade.php" class="nav-item nav-link">Product Detail</a>
                             <a href="cart.blade.php" class="nav-item nav-link">Cart</a>
                             <a href="checkout.blade.php" class="nav-item nav-link">Checkout</a>
-                            <a href="my-account.html" class="nav-item nav-link active">My Account</a>
+                            <a href="my-account.blade.php" class="nav-item nav-link active">My Account</a>
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">More Pages</a>
                                 <div class="dropdown-menu">
@@ -80,8 +80,8 @@
                 </nav>
             </div>
         </div>
-        <!-- Nav Bar End -->      
-        
+        <!-- Nav Bar End -->
+
         <!-- Bottom Bar Start -->
         <div class="bottom-bar">
             <div class="container-fluid">
@@ -114,8 +114,8 @@
                 </div>
             </div>
         </div>
-        <!-- Bottom Bar End --> 
-        
+        <!-- Bottom Bar End -->
+
         <!-- Breadcrumb Start -->
         <div class="breadcrumb-wrap">
             <div class="container-fluid">
@@ -127,7 +127,7 @@
             </div>
         </div>
         <!-- Breadcrumb End -->
-        
+
         <!-- My Account Start -->
         <div class="my-account">
             <div class="container-fluid">
@@ -148,7 +148,7 @@
                                 <h4>Dashboard</h4>
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. In condimentum quam ac mi viverra dictum. In efficitur ipsum diam, at dignissim lorem tempor in. Vivamus tempor hendrerit finibus. Nulla tristique viverra nisl, sit amet bibendum ante suscipit non. Praesent in faucibus tellus, sed gravida lacus. Vivamus eu diam eros. Aliquam et sapien eget arcu rhoncus scelerisque.
-                                </p> 
+                                </p>
                             </div>
                             <div class="tab-pane fade" id="orders-tab" role="tabpanel" aria-labelledby="orders-nav">
                                 <div class="table-responsive">
@@ -196,7 +196,7 @@
                                 <h4>Payment Method</h4>
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. In condimentum quam ac mi viverra dictum. In efficitur ipsum diam, at dignissim lorem tempor in. Vivamus tempor hendrerit finibus. Nulla tristique viverra nisl, sit amet bibendum ante suscipit non. Praesent in faucibus tellus, sed gravida lacus. Vivamus eu diam eros. Aliquam et sapien eget arcu rhoncus scelerisque.
-                                </p> 
+                                </p>
                             </div>
                             <div class="tab-pane fade" id="address-tab" role="tabpanel" aria-labelledby="address-nav">
                                 <h4>Address</h4>
@@ -260,7 +260,7 @@
             </div>
         </div>
         <!-- My Account End -->
-        
+
         <!-- Footer Start -->
         <div class="footer">
             <div class="container-fluid">
@@ -275,7 +275,7 @@
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="col-lg-3 col-md-6">
                         <div class="footer-widget">
                             <h2>Follow Us</h2>
@@ -313,7 +313,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="row payment align-items-center">
                     <div class="col-md-6">
                         <div class="payment-method">
@@ -333,7 +333,7 @@
             </div>
         </div>
         <!-- Footer End -->
-        
+
         <!-- Footer Bottom Start -->
         <div class="footer-bottom">
             <div class="container">
@@ -348,17 +348,17 @@
                 </div>
             </div>
         </div>
-        <!-- Footer Bottom End -->       
-        
+        <!-- Footer Bottom End -->
+
         <!-- Back to Top -->
         <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-        
+
         <!-- JavaScript Libraries -->
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
         <script src="lib/easing/easing.min.js"></script>
         <script src="lib/slick/slick.min.js"></script>
-        
+
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
     </body>
